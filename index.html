@@ -12,7 +12,12 @@
     <div class="container centerIt">
       <div class="row">
         <div class="col-xs-4" id="dog">
-          <img class="img-responsive" src="img/dog.png" alt="dog" />
+          <div class="progress">
+            <div class="progress-bar progress-bar-success dogLife" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+              <span class="sr-only">40% Complete (success)</span>
+            </div>
+          </div>
+          <img class="img-responsive" src="img/dog.png" alt="dog" id="dogImg" />
         </div>
         <div class="col-xs-4" id="space">
           <h1 class="attack">
@@ -20,7 +25,12 @@
           </h1>
         </div>
         <div class="col-xs-4" id="cat">
-          <img class="img-responsive" src="img/cat.png" alt="cat" />
+          <div class="progress">
+            <div class="progress-bar progress-bar-success catLife" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+              <span class="sr-only">40% Complete (success)</span>
+            </div>
+          </div>
+          <img class="img-responsive" src="img/cat.png" alt="cat" id="catImg" />
         </div>
       </div>
     </div>

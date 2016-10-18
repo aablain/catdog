@@ -1,0 +1,41 @@
+
+
+#dog {
+  height: auto;
+  position: relative;
+  top: 50%;
+  padding-top: 22%;
+}
+
+#space{
+  padding-top: 25%;
+  text-align: center;
+}
+
+#cat {
+}
+
+.attack {
+  margin-bottom: 55%;
+}
+
+.smallhit {
+  color: green;
+  font-size: 2em;
+}
+.mediumhit {
+  color: #F3CA24;
+  font-size: 2.5em;
+}
+.bighit {
+  color: red;
+  font-size: 5em;
+}
+
+.catdead {
+
+}
+
+.dogdead {
+
+}
